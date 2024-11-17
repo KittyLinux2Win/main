@@ -36,6 +36,10 @@ jobs:
           node-version: '16'
       - name: Install gh-pages package
         run: npm install --save-dev gh-pages
+      - name: Set up Git identity
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
       - name: Copy HTML content to root
         run: |
           # Copy content from src/html to the root directory for GitHub Pages to use
