@@ -1,0 +1,12 @@
+#console-emulator {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#console-output {
+    min-height: 200px;
+    padding: 10px;
+    background-color: #0a0a0a;
+    border-radius: 8px;
+    border: 1px solid #333;
+    overflow: hidden;
+}
